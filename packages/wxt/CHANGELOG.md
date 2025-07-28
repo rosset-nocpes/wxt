@@ -1,5 +1,50 @@
 # Changelog
 
+## v0.20.8
+
+[compare changes](https://github.com/rosset-nocpes/wxt/compare/wxt-v0.20.7...wxt-v0.20.8)
+
+### 🚀 Enhancements
+
+- Create plugin for creating footer ([26c544a](https://github.com/rosset-nocpes/wxt/commit/26c544a))
+- Use filter for rolldown plugin ([72b5e91](https://github.com/rosset-nocpes/wxt/commit/72b5e91))
+
+### 🩹 Fixes
+
+- Support http server websocket inside containers ([#1707](https://github.com/rosset-nocpes/wxt/pull/1707))
+- Recreating keyboardShortcuts interface on file changes. ([#1465](https://github.com/rosset-nocpes/wxt/pull/1465))
+- Fix bad regex from #1707 ([#1712](https://github.com/rosset-nocpes/wxt/pull/1712), [#1707](https://github.com/rosset-nocpes/wxt/issues/1707))
+- Fix bundle variable assignment error with `rolldown-vite` ([#1715](https://github.com/rosset-nocpes/wxt/pull/1715))
+- Support negation patterns when including/excluding files from ZIP files ([#1517](https://github.com/rosset-nocpes/wxt/pull/1517))
+
+### 💅 Refactors
+
+- Use script.text instead of innerHTML in injectScript ([0e8c7fd](https://github.com/rosset-nocpes/wxt/commit/0e8c7fd))
+
+### 📖 Documentation
+
+- Fix API reference sidebar by naming new module ([eb0bffb](https://github.com/rosset-nocpes/wxt/commit/eb0bffb))
+- Update JSDoc with ways to cancel timeouts and intervals set by content script context ([030f23d](https://github.com/rosset-nocpes/wxt/commit/030f23d))
+
+### 🏡 Chore
+
+- Fix auto-fixable `markdownlint` errors ([#1710](https://github.com/rosset-nocpes/wxt/pull/1710))
+- Remove automd ([7d25110](https://github.com/rosset-nocpes/wxt/commit/7d25110))
+- Wxt & @wxt-dev/module-vue support Vite 7 ([#1771](https://github.com/rosset-nocpes/wxt/pull/1771))
+- **release:** Wxt v0.20.8 ([aa10aef](https://github.com/rosset-nocpes/wxt/commit/aa10aef))
+- **release:** Wxt v0.20.8" ([1c80fd4](https://github.com/rosset-nocpes/wxt/commit/1c80fd4))
+
+### 🤖 CI
+
+- Use matrix for test jobs ([#1708](https://github.com/rosset-nocpes/wxt/pull/1708))
+
+### ❤️ Contributors
+
+- Andrii Blacksmith ([@rosset-nocpes](https://github.com/rosset-nocpes))
+- Ayu ([@ayu-exorcist](https://github.com/ayu-exorcist))
+- Nishu ([@nishu-murmu](https://github.com/nishu-murmu))
+- Aaron ([@aklinker1](https://github.com/aklinker1))
+
 ## v0.20.7
 
 [compare changes](https://github.com/wxt-dev/wxt/compare/wxt-v0.20.6...wxt-v0.20.7)
