@@ -1,5 +1,5 @@
 {
-  "name": "wxt",
+  "name": "@rosset-nocpes/wxt",
   "type": "module",
   "version": "0.20.7",
   "description": "⚡ Next-gen Web Extension Framework",
@@ -83,7 +83,7 @@
   "peerDependenciesMeta": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wxt-dev/wxt.git"
+    "url": "git+https://github.com/rosset-nocpes/wxt.git"
   },
   "homepage": "https://wxt.dev",
   "keywords": [
