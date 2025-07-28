@@ -60,9 +60,11 @@ jobs:
       - name: Publish to NPM
         working-directory: packages/${{ inputs.package }}
         run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" > ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.NODE_AUTH_TOKEN }}" > ~/.npmrc
           pnpm build
           pnpm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create GitHub release
         run: pnpm tsx scripts/create-github-release.ts ${{ inputs.package }}
