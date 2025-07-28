@@ -1,5 +1,5 @@
 {
-  "name": "@rosset-nocpes/wxt",
+  "name": "wxt",
   "type": "module",
   "version": "0.20.7",
   "description": "⚡ Next-gen Web Extension Framework",
